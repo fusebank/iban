@@ -897,6 +897,7 @@ mod tests {
     #[test_case("NI92BAMC000000000000000003123123"; "NI")]
     #[test_case("NL91ABNA0417164300"; "NL")]
     #[test_case("NO9386011117947"; "NO")]
+    #[test_case("OM040280000012345678901"; "OM")]
     #[test_case("PF5720041010050500013M02606"; "PF")]
     #[test_case("PK36SCBL0000001123456702"; "PK")]
     #[test_case("PL61109010140000071219812874"; "PL")]
