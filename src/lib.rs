@@ -927,6 +927,7 @@ mod tests {
     #[test_case("WF9120041010050500013M02606"; "WF")]
     #[test_case("XK051212012345678906"; "XK")]
     #[test_case("YT3120041010050500013M02606"; "YT")]
+    #[test_case("OM040280000012345678901"; "OM")]
     fn iban(original: &str) {
         let iban = Iban::parse(original).expect("iban should be valid");
 
